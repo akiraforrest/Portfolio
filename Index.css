@@ -1,0 +1,617 @@
+
+
+/*
+Japanese font:
+font-family: "Shippori Mincho B1", serif;
+
+English Font:
+font-family: "Audiowide", sans-serif;
+*/
+
+
+body{
+    background-image:linear-gradient(to right,#DBA1FF,#7D00C9);
+    background-color:#000;
+    font-family: "Audiowide", sans-serif;
+    
+}
+
+.decal{
+  background-image: url("Decal.png");
+}
+
+header{
+    color:white;
+    font-size:30px;
+}
+#Main{
+    max-width: 1000px;
+    width: auto;
+    padding: 80px;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius:150px;
+    margin:auto;
+    font-family: "Shippori Mincho B1", serif;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image:linear-gradient(to bottom right,#E7FBFF,#AAF0FF,cyan);
+}
+#bubbles{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 150px;
+    display: flex;
+}
+
+.bg_building {
+      background-image: url("Footer.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+#bub1{
+    display:flex;
+    background-color: aqua;
+    width:200px;
+    height:200px;
+    border-radius: 190px;
+    align-items: end;
+    margin:20px;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image:url("AI-copyrightfree-pfp.avif");
+    background-size: contain;
+}
+#bub2{
+    display:flex;
+    background-color: aqua;
+    width:200px;
+    height:200px;
+    border-radius: 190px;
+    align-items: end;
+    margin:20px;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image:url("artpixelbg.jpg");
+    background-size:cover;
+  }
+#bub3{
+    display:flex;
+    background-color: aqua;
+    width:200px;
+    height:200px;
+    border-radius: 190px;
+    align-items: end;
+    margin:20px;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image:url("jelly.gif");
+    background-size:cover;
+  }
+
+nav{
+    display:flex;
+    align-items: end;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:first-child{
+    margin-left:2%
+}
+
+
+.footer{
+    color:white;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    position: relative;
+    top:-15px;
+}
+
+a{color:white;}
+a:link { 
+    text-decoration: none; 
+    color:white;
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color:rgb(0, 247, 255);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-size: larger;
+
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+  #englink{
+    font-size:40px;
+    
+  }
+
+  .spacer{
+    height:200px;
+  
+  }
+
+
+/*===PHONE VER INDEX===*/
+@media (max-width: 768px) {
+  body {
+      background-color: lightgreen; /* different background for mobile */
+  }
+
+  #Main {
+    width: 570px;
+    padding: 60px;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 150px;
+    margin: auto;
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image: linear-gradient(to bottom right, #E7FBFF, #AAF0FF, cyan);
+  }
+
+  #bubbles {
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 150px;
+    flex-direction: column; /* Change to column layout on small screens */
+    justify-content: center;
+    display: flex;
+  }
+
+  #bub1, #bub2, #bub3 {
+    background-color: aqua;
+    width: 450px;
+    height: 450px;
+    border-radius: 250px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+  }
+
+  #bub1 {
+    background-image: url("AI-copyrightfree-pfp.avif");
+    background-size: contain;
+  }
+
+  #bub2 {
+    background-image: url("artpixelbg.jpg");
+    background-size: cover;
+  }
+
+  #bub3 {
+    background-image: url("jelly.gif");
+    background-size: cover;
+  }
+  #englink{
+    font-size:50px;
+    
+  }
+  p{
+    font-size: 30px;
+  }
+
+  .bg_building {
+    background-image: url("Footer.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size:auto;
+  }
+
+
+}
+
+
+  /*
+  ============================PROFILE PAGE==============================
+  
+  */
+
+
+  #prof main {
+    padding-bottom: 50px;
+    
+  }
+
+
+
+
+  #Proficiencies{
+    max-width: 1000px;
+    width: auto;
+    margin: auto;
+    padding: 30px;
+    background-color: cyan;
+    border-radius:130px;
+    font-family: "Shippori Mincho B1", serif;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image:linear-gradient(to bottom right,#E7FBFF,#AAF0FF,cyan);
+
+  }
+  #Proficienciestop a{
+    padding:10px;
+    color:black;
+    
+
+  }
+
+
+  #Proficiencies ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 15px;
+  }
+#Proficiencies li{
+  width:20%;
+  text-align: center;
+}
+
+  
+  #titlesinfo{
+    margin-top:50px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+  }
+  #Proficiencies_lang{
+    max-width: 1000px;
+    width: auto;
+    margin: auto;
+    padding: 30px;
+    background-color: cyan;
+    border-radius:130px;
+    font-family: "Shippori Mincho B1", serif;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+    background-image:linear-gradient(to bottom right,#E7FBFF,#AAF0FF,cyan);
+
+  }
+  #Proficiencies_lang {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 20px; /* Optional: Add some space above */
+  }
+  
+  #Proficiencies_lang ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text inside the list */
+  }
+  
+  #Proficiencies_lang li {
+    font-size: larger; /* Adjust font size as needed */
+    margin: 5px 0; /* Add some spacing between list items */
+  }
+  
+/*=======PHONE PROFILE=============*/
+  @media (max-width: 768px) {
+    #Main{
+      max-width: 450px;
+      font-size: medium;
+    }
+
+    #prof Main {
+      max-width: 450px;
+      width: auto;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+  
+    #Proficiencies{
+      max-width: 450px;
+      margin: auto;
+      padding: 50px;
+      background-color: cyan;
+      border-radius:130px;
+      font-family: "Shippori Mincho B1", serif;
+      font-size: larger;
+      font-weight: bold;
+      box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+      background-image:linear-gradient(to bottom right,#E7FBFF,#AAF0FF,cyan);
+  
+    }
+
+    #Proficiencies li{
+      width: 150px;
+    }
+
+    #Proficiencies_lang{
+      max-width: 450px;
+      width: auto;
+      margin: auto;
+      padding: 30px;
+      background-color: cyan;
+      border-radius:130px;
+      font-family: "Shippori Mincho B1", serif;
+      font-size: larger;
+      font-weight: bold;
+      box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507);
+      background-image:linear-gradient(to bottom right,#E7FBFF,#AAF0FF,cyan);
+  
+    }
+    
+  }
+
+
+    /*
+  ===========================GALLERY============================
+  
+  */
+
+
+
+/* General styling for the grid container */
+#MainGal {
+  display: grid;                   /* Use CSS Grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+  gap: 10px;                       /* Space between grid items */
+  padding: 60px;                  /* Padding around the grid */
+  width: 1100px;                  /* Fixed width of the grid container */
+  background: linear-gradient(to bottom right, #E7FBFF, #AAF0FF, cyan); /* Background gradient */
+  border-radius: 150px;          /* Rounded corners */
+  box-shadow: 10px 10px 5px hsla(180, 80%, 27%, 0.507); /* Shadow for 3D effect */
+  margin: auto;                 /* Center the container horizontally */
+  box-sizing: border-box;       /* Ensure padding is included in width */
+}
+
+#MainGal p{
+  color: black;
+  display: flex;                   /* Use CSS Grid layout */
+  gap: 10px;                       /* Space between grid items */
+  padding: 30px;                  /* Padding around the grid */
+  font-weight: bolder;
+  font-family:"Audiowide", sans-serif;   
+  font-size: x-large;   
+  justify-content: center;
+  align-items: top;
+  text-align: center;          
+}
+
+
+.Gallbox_logo img{
+  width: 300px;                 /* Make image fill the width of the container */
+  height: 300px;                /* Make image fill the height of the container */
+  object-fit:cover;           /* Ensure the image covers the entire container */
+  text-align: center;         /* Center text inside each box */
+  border: 1px solid #ddd;     /* Optional: add a border around each box */
+  display: flex;              /* Flexbox for inner content */
+  justify-content: center;    /* Center content horizontally */
+  align-items: center;        /* Center content vertically */
+  border-radius: 90px;
+  overflow: hidden;  
+}
+.Gallbox_logo p {
+  transition: transform 0.3s ease, color 0.3s ease; /* Add a transition for smooth animation */
+}
+
+.Gallbox_logo:hover p {
+  transform: translateY(-10px); /* Move text upwards when hovering */
+  color: black; /* Change text color on hover (optional) */
+  font-family: "Audiowide", sans-serif; /* Change the font on hover (optional) */
+  -webkit-text-fill-color: rgb(26, 176, 202); /* Make text color the same as the hover color */
+  -webkit-text-stroke: 1.5px black; /* Add the text stroke in the hover color */
+  
+}
+
+
+/*POPUPS*/
+.overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Popup content */
+.popup {
+  position: relative;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.popup img {
+  width: 100%;
+  height: auto;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+/*---PHONE/RESPONSIVE GAL----*/
+
+@media (max-width: 768px) {
+
+  #MainGal {
+    padding: 50px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically instead of grid */
+    width: 100%; /* Adjust to be responsive */
+    height: auto; /* Adjust height */
+  }
+
+  .Gallbox_logo {
+    display: flex;
+    flex-direction: column; /* Stack the Gallbox_logo boxes vertically */
+    align-items: center; /* Center the items horizontally */
+    width: 100%; /* Make each box take full width in the column */
+    margin-bottom: 20px; /* Add some space between boxes */
+  }
+
+  .Gallbox_logo img {
+    width: 100%; /* Make the images responsive and take full width of their container */
+    height: 350px; /* Adjust height to maintain aspect ratio */
+  }
+
+  #MainGal p {
+    font-size: x-large; /* Adjust font size for mobile */
+    padding: 15px; /* Adjust padding */
+  }
+}
+
+
+
+
+/*---PHONE/RESPONSIVE GAL----*/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CONTACT PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#contactforumtitle{
+  margin-top:50px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.contact-form {
+  width: 500px;
+  margin: auto;
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 130px;
+  font-family: "Shippori Mincho B1", serif;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+
+.contact-form label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 5px;
+  font-size: larger; /* Adjust font size as needed */
+}
+
+.contact-form input[type="text"].blue-input,
+.contact-form input[type="email"].blue-input,
+.contact-form textarea.blue-input {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #7D00C9; /* purple border color */
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #E7FBFF, #AAF0FF, cyan);
+  box-shadow: 5px 5px 2px hsla(180, 80%, 27%, 0.507);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-bottom: 20px;
+}
+
+.contact-form textarea.blue-input {
+  height: 150px; /* Adjust height as needed */
+  width:100%;
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+.contact-form button {
+  background-color: #00a9cf; /* Button color */
+  color: white; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  width:100px;
+}
+
+.contact-form button:hover {
+  background-color: #DBA1FF; /* Change color on hover */
+}
+
+
+@media (max-width: 768px) {
+  
+  #contactforumtitle {
+    font-size: 24px; /* Reduce font size for mobile */
+    margin-top: 30px; /* Adjust margin for mobile */
+  }
+
+  .contact-form {
+    width: 90%; /* Make form width more flexible on smaller screens */
+    padding: 15px; /* Reduce padding */
+    font-size: 16px; /* Adjust font size for better readability */
+    border-radius: 100px; /* Slightly reduce border radius */
+  }
+
+  .contact-form label {
+    font-size: 16px; /* Adjust font size for labels */
+  }
+
+  .contact-form input[type="text"].blue-input,
+  .contact-form input[type="email"].blue-input,
+  .contact-form textarea.blue-input {
+    width: 100%; /* Make input fields take full width */
+    padding: 8px; /* Reduce padding for input fields */
+    font-size: 14px; /* Adjust font size */
+    margin-bottom: 15px; /* Reduce margin */
+  }
+
+  .contact-form textarea.blue-input {
+    height: 120px; /* Reduce height of the textarea */
+  }
+
+  .contact-form button {
+    font-size: 14px; /* Adjust button font size */
+    padding: 8px 16px; /* Reduce button padding */
+    width: 120px; /* Adjust button width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

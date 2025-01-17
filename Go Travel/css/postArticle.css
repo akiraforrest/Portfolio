@@ -1,0 +1,56 @@
+.postArticle {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.postArticleInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 10px; 
+}
+
+.postArticleInfoAvatar {
+    margin-right: 15px;
+}
+
+.postArticleInfoAvatar img {
+    width: 50px; 
+    border-radius: 50%;
+}
+
+.postArticleInfoName {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.postArticleInfoTime {
+    margin-left: auto;
+    color: #888;
+}
+
+.postArticleShow {
+    margin-top: 15px;
+}
+
+.postArticleShowPhoto img {
+    max-width: 80%;
+	max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.postArticleShowTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.postArticleShowArticle {
+    line-height: 1.5;
+    color: #333;
+}

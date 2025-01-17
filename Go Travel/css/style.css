@@ -1,0 +1,163 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header{
+    height: 10%;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.headerLogo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerLogo img{
+    height: 100%;
+    width: auto;
+}
+
+.headerMeau{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerMeau a {
+    text-decoration: none;
+    color: #333;
+    padding: 1.5% 3%;
+    border-radius: 50px;
+    background-color: #C30E23;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+}
+
+.headerMeau a:hover {
+    background-color: #8f0c1b;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.headerUser{
+    height: 100%;
+    width: 15%;
+}
+
+.headerUserWelcome{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerUserInfo{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerUserInfoAvatar{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerUserInfoAvatar img{
+    height: 100%;
+    width: auto;
+}
+
+.headerUserInfoName{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLogout{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerLogout img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*main*/
+main{
+    height: 85%;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+/*footer*/
+footer {
+    height: 5%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMeau {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerMeau a {
+    text-decoration: none;
+    color: #C30E23;
+    font-weight: bold;
+    margin: 0 2%;
+    transition: color 0.3s ease;
+}
+
+.footerMeau a:hover {
+    color: #555;
+}
+
+.footerText {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C30E23;
+    font-size: small;
+}
+
+.footerText p {
+    margin: 0;
+}

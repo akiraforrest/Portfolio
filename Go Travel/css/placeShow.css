@@ -1,0 +1,83 @@
+#placePhoto {
+    position: relative;
+    width: 60%;
+    height: 450px;
+    margin: 10px auto; 
+}
+
+#placePhotos {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.placeName {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.placeIntro {
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.placeAdvice {
+    margin-top: 30px;
+}
+
+.placeAdviceTitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.placeAdviceShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeAdviceShow1,
+.placeAdviceShow2,
+.placeAdviceShow3 {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.placeAdviceShow1 a,
+.placeAdviceShow2 a,
+.placeAdviceShow3 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.placeAdviceShow1Photo,
+.placeAdviceShow2Photo,
+.placeAdviceShow3Photo {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.placeAdviceShow1Photo img,
+.placeAdviceShow2Photo img,
+.placeAdviceShow3Photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.placeAdviceShow1Name,
+.placeAdviceShow2Name,
+.placeAdviceShow3Name {
+    font-weight: bold;
+}
+
+.placeAdviceShow1Photo:hover img,
+.placeAdviceShow2Photo:hover img,
+.placeAdviceShow3Photo:hover img {
+    transform: scale(1.1);
+}

@@ -1,0 +1,106 @@
+.top_photo{
+    width: 100%;
+    height: 500px;
+}
+
+#main_visual{
+    width:100%;
+    height:100%;
+}
+
+
+
+.japan_map{
+    width: 100%;
+    height: 1080px;
+    margin-top:10px;
+    text-align: center;
+    position:relative;
+}
+.map_text{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.mapButton{
+    width: 100%;
+    height: 400px;
+    background-color: #ebb4b4;
+}
+.mapButtonText{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapButtonArea{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapButtonArea1,
+.mapButtonArea2,
+.mapButtonArea3,
+.mapButtonArea4,
+.mapButtonArea5{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.mapButtonArea1 h3,
+.mapButtonArea2 h3,
+.mapButtonArea3 h3,
+.mapButtonArea4 h3,
+.mapButtonArea5 h3
+{
+    padding: 1.5% 3%;
+    background-color: white;
+    border-radius: 50px;
+    color: #333;
+    margin: 0% 20%;
+    justify-content: space-between; 
+}
+
+.mapButtonArea1 ul,
+.mapButtonArea2 ul,
+.mapButtonArea3 ul,
+.mapButtonArea4 ul,
+.mapButtonArea5 ul{
+    list-style: none;
+    padding: 0;
+}
+
+.mapButtonArea1 li,
+.mapButtonArea2 li,
+.mapButtonArea3 li,
+.mapButtonArea4 li,
+.mapButtonArea5 li{
+    margin: 50px 0px;
+}
+
+.mapButtonArea1 a,
+.mapButtonArea2 a,
+.mapButtonArea3 a,
+.mapButtonArea4 a,
+.mapButtonArea5 a{
+    text-decoration: none;
+    color: #333;
+    padding: 3% 10%;
+    border-radius: 50px;
+    background-color: #ebb4b4;
+    border: solid #333 1px;
+    justify-content: space-between;
+}
+.mapButtonArea1 a:hover,
+.mapButtonArea2 a:hover,
+.mapButtonArea3 a:hover,
+.mapButtonArea4 a:hover,
+.mapButtonArea5 a:hover {
+    background-color: #a06c6c;
+}

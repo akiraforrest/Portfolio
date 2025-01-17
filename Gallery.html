@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+</head>
+
+<body id="prof">
+
+    <header>
+        <h1><a href="IndexPage.html">フォレストアキラ</a></h1>
+    </header>
+
+    <div class="bg_building">
+
+        <main>
+            <div id="titlesinfo">Gallery</div>
+            <div id="MainGal">
+                <div class="Gallbox_logo"><img src="Logo(WhiteBG,visOnly).png" alt="Logo"><p>GoTravel logo</p></div>
+               
+               <!--Link GoTravel-->
+                <a href="Go Travel/indexPort.html">
+                <div class="Gallbox_logo"><img src="gotravelsslogin.png" alt="Go Travel"><p>GoTravel(リンクです)</p></div>
+                </a>
+                <!--Link GoTravel-->
+
+                <!--Link Cuberpunk FS-->
+                <a href="Cyberpunk FS/indexPort.html">
+                <div class="Gallbox_logo"><img src="../PROTFOLIO AKRIA DONT LOSE/Cyberpunk FS/Images/c4c67f08-2cef-452f-9e75-25bef0bc63c2.jpg" alt="Go Travel">
+                    <p>Cyberpunk Fansite (incomplete link)<p></div>
+                </a>
+                <!--Link Cuberpunk FS-->
+
+                <!--Link GameNews-->
+                <a href="gamenews/index.html">
+                <div class="Gallbox_logo"><img src="gamenewsss.png" alt="Game News"><p>GameNews(リンクです)</p></div>
+                </a>
+                <!--Link GameNews-->
+                <div class="Gallbox_logo"><img src="minecraft ss.png" alt="Minecraft"><p>Minecraft HP</p></div>
+                <div class="Gallbox_logo"><img src="artpixelbg.jpg" alt="BG"><p>PixelArt Background</p></div>
+
+                <!--^^^^^^^^^^^^^^ Add more items as needed vvvvvvvvvvvvvvvvv-->
+
+
+
+
+
+
+
+            </div>
+        </main>
+
+        <div class="spacer"></div>
+
+        <div class="footer">
+            <p>2024 フッタープレスホールだー</p>
+        </div>
+
+    </div>
+
+    <!-- Popup HTML -->
+    <div class="overlay" id="popup-overlay">
+        <div class="popup">
+            <button class="close-btn" onclick="closePopup()">×</button>
+            <img id="popup-image" src="" alt="Popup Image">
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle the popup
+        const overlay = document.getElementById('popup-overlay');
+        const popupImage = document.getElementById('popup-image');
+
+        function openPopup(src) {
+            popupImage.src = src;
+            overlay.style.display = 'flex'; // Show the overlay
+        }
+
+        function closePopup() {
+            overlay.style.display = 'none'; // Hide the overlay
+        }
+
+        // Add click event to all images in Gallbox and Gallbox_logo
+        document.querySelectorAll('#MainGal .Gallbox img, #MainGal .Gallbox_logo img').forEach(image => {
+            image.addEventListener('click', (event) => {
+                openPopup(event.target.src);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

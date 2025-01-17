@@ -1,0 +1,383 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#index-midashi{
+	padding-top:20px;
+	text-align: left;
+}
+#index-midashi-welcome{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:18px;
+	color:white;
+}
+
+/*テキストボックスなどの入力チェックエラー時に利用*/
+.failed_validation {
+    background: red;
+    color: white;
+	padding: 5px 0px 5px 10px;
+}
+
+#error_user_last_name {
+	display: none;
+}
+
+#error_user_first_name {
+	display: none;
+}
+
+#error_user_last_name_kana {
+	display: none;
+}
+
+#error_user_first_name_kana {
+	display: none;
+}
+
+#error_password {
+	display: none;
+}
+
+#error_password_confirm {
+	display: none;
+}
+
+#failed_confirm {
+	display: none;
+}
+
+#error_event_name {
+	display: none;
+}
+
+#error_event_datetimes {
+	display: none;
+}
+
+#error_login_id {
+	display: none;
+}
+
+#duplicate_login_id {
+	display: none;
+}
+
+/*------------------------------------------------------
+ Tablet ~
+------------------------------------------------------*/
+@media screen and (min-width:768px) {
+
+  /* タブレット端末から効くスタイル */
+	#index-midashi-welcome{
+		font-size:28px;
+	}
+}
+
+/*------------------------------------------------------
+ PC
+------------------------------------------------------*/
+@media screen and (min-width:920px) {
+	
+	/* PCから効くスタイル */
+	#index-midashi-welcome{
+		font-size:48px;
+	}
+
+
+#imagesTP{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	gap: 20px;
+}
+#imagesBT{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	gap: 20px;
+	margin-top: 20px;
+}
+.Titletext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color:white;
+    background-color: rgb(0, 0, 0);
+    width: 125px;
+    height:230px;
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+	padding-left:10px;
+}
+
+
+#imagesTP, #imagesBT {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px;
+}
+
+
+.boxpic {
+    background-color: black;
+    width: 350px;
+    height: 230px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Ensure any overflow is hidden */
+}
+
+
+.boxpic img {
+    width: 65%; /* Adjust this value to fit your design */
+    height: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    object-fit: cover; /* Ensure image covers the designated area */
+}
+
+
+.boxpic h3 {
+    color: white;
+    padding-left: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: flex-start; /* Align text to the start of the remaining space */
+    flex: 1; /* Take remaining space */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+    white-space: nowrap; /* Prevent text from wrapping */
+    padding-right: 10px; /* Add some padding to the right */
+    height: 100%; /* Ensure the text container fills the height of the box */
+	font-size: x-small;
+}
+
+
+main {
+    margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+
+
+body{
+	background-image: url("../img/360_F_396824264_mwWR3TBonWep0UOtvTzYe1rxihXYYS4A.jpg");
+}
+
+/*NAVBAR RIGHT*/
+
+#navright{
+	background-color: rgb(143, 6, 6);
+	color: aliceblue;
+	width: 175px;
+	justify-content: left;
+	align-items: right;
+	display:block;
+	margin-left: 30px;
+	position:static;
+	margin-bottom:-2.7%;
+}
+#navright img{
+	background-color: black;
+	border-radius: 100px;
+	width:150px;
+	height: 150px;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left:5px;
+}
+ul{
+	padding:10px;
+	width:100%;
+}
+li{
+	border-bottom: 2px solid rgb(255, 255, 255);
+	padding:10px;
+	margin-right:20px;
+	position: relative;
+	width: auto;
+
+}
+
+
+/*header*/
+
+header{
+	background-color:rgb(37, 51, 51);
+}
+.header-box-pc-left-menu{
+	color:whheader-box-pc-right-menuite;}
+
+.header-box img{
+	width: fit-content;
+	height: 120px;
+	padding: 20px;
+}
+footer{
+	background-color:rgb(37, 51, 51);
+	color:white;
+}
+.footer-box{
+	background-color:rgb(37, 51, 51);
+}
+
+.footer-box img{
+	width: auto;
+	height: 200px;
+	padding: 20px;
+	margin:-75px;
+}
+}
+
+
+/*SMARTPHONE VIEW*/
+
+@media screen and (max-width:920px) {
+	
+	/* PCから効くスタイル */
+	#index-midashi-welcome{
+		font-size:48px;
+	}
+
+	body{
+		background-image: url("../img/360_F_396824264_mwWR3TBonWep0UOtvTzYe1rxihXYYS4A.jpg");
+	}
+	main{
+		align-items: center;
+		display: flex;
+	}
+
+
+	#navright{
+		display: none;
+	}
+	
+#imagesTP, #imagesBT {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start; /* Align items to the top */
+    gap: 10px;
+	flex-direction: column;
+
+}
+
+
+.boxpic {
+    background-color: black;
+    width: 350px;
+    height: 230px;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Ensure any overflow is hidden */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.boxpic img {
+    width: 65%; /* Adjust this value to fit your design */
+    height: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    object-fit: cover; /* Ensure image covers the designated area */
+}
+
+
+.boxpic h3 {
+    color: white;
+    padding-left: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: flex-start; /* Align text to the start of the remaining space */
+    flex: 1; /* Take remaining space */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+    white-space: nowrap; /* Prevent text from wrapping */
+    padding-right: 10px; /* Add some padding to the right */
+    height: 100%; /* Ensure the text container fills the height of the box */
+	font-size: x-small;
+}
+header{
+	background-color:rgb(37, 51, 51);
+}
+
+.header-box img{
+	width: fit-content;
+	height: 120px;
+	padding: 20px;
+}
+
+footer{
+	background-color:rgb(37, 51, 51);
+	color:white;
+	margin-top: 20px;;
+}
+.footer-box{
+	background-color:rgb(37, 51, 51);
+}
+
+.footer-box img{
+	width: auto;
+	height: 200px;
+	padding: 30px;
+	margin:-75px;
+}
+#header-box-mb-menu{
+	background-color: rgb(143, 6, 6);
+	color: rgb(2, 5, 8);
+	width: 175px;
+	justify-content: left;
+	align-items: right;
+	display:block;
+	margin-left: 30px;
+	position:static;
+	margin-bottom:-2.7%;
+	
+}
+#navright-sp img{
+	background-color: black;
+	border-radius: 100px;
+	width:150px;
+	height: 150px;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left:5px;
+}
+ul{
+	padding:10px;
+	width:100%;
+}
+li{
+	border-bottom: 2px solid rgb(255, 255, 255);
+	padding:10px;
+	position: relative;
+	width: auto;
+
+}
+#nav-content{
+	background-color: rgb(143, 6, 6);
+	color: #fff;
+}
+.header-box-mb-menu-item{
+	border-bottom: 2px solid rgb(255, 255, 255);
+	padding:10px;
+}
+.header-box-mb-signin{
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+.header-box-mb-signup{
+	border-bottom: 2px solid rgb(255, 255, 255);
+	padding:10px;
+}
+}

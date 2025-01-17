@@ -1,0 +1,28 @@
+.placeName h1 {
+    color: #333;
+    font-size: 3em;
+}
+
+.placeName,.placePhoto,.placeIntro,.placeMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.placePhoto img {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.placeIntro {
+    padding: 10px;
+}
+
+.placeMap iframe {
+    width: 70%;
+    height: 400px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+}

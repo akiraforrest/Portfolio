@@ -1,0 +1,122 @@
+.myInfo{
+    width: 80%;
+    height: 250px;
+    background-color:#EBB4B4 ; 
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.myInfoName{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.myInfoEmail{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.myInfoUnder{
+    width: 100%;
+    height: 55%;
+    display: flex;
+}
+
+.myInfoUnderAvatar{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInfoUnderAvatar img{
+    height: 100%;
+    width: auto;
+}
+
+.myInfoUnderIntroduction{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInfoButton{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myPost{
+    width: 80%;
+    margin-left: 10%;
+    background-color:#EBB4B4 ; 
+}
+.myPostTitle{
+    margin-left: 35px;
+    width: 100%;
+}
+.myPostShow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.myPostShow a{
+    width: 30%; 
+    height: 400px;
+    margin: 10px;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;
+}
+.myPostShowInfo {
+    width: 100%; 
+    height: 100%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.myPostShowInfo:hover {
+    transform: scale(1.05);
+}
+
+.myPostShowInfoPhoto{
+    width: 100%;
+    height: 85%;
+}
+
+.myPostShowInfoTitle{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPostShowInfoPhoto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.myPostShowInfoTitle {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
