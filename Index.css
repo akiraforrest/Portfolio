@@ -330,6 +330,8 @@ a:link {
     }
   
     #Proficiencies{
+        display:flex;
+      justify-content:center;  
       max-width: 450px;
       margin: auto;
       padding: 50px;
