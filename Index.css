@@ -151,7 +151,7 @@ a:link {
 
 
 /*===PHONE VER INDEX===*/
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   body {
   }
 
@@ -316,7 +316,7 @@ a:link {
   }
   
 /*=======PHONE PROFILE=============*/
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     #Main{
       max-width: 450px;
       font-size: medium;
@@ -472,7 +472,7 @@ a:link {
 
 /*---PHONE/RESPONSIVE GAL----*/
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
   #MainGal {
     padding: 50px;
@@ -574,7 +574,7 @@ a:link {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   
   #contactforumtitle {
     font-size: 24px; /* Reduce font size for mobile */
