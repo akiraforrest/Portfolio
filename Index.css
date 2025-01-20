@@ -153,7 +153,6 @@ a:link {
 /*===PHONE VER INDEX===*/
 @media (max-width: 768px) {
   body {
-      background-color: lightgreen; /* different background for mobile */
   }
 
   #Main {
