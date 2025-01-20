@@ -182,9 +182,9 @@ a:link {
 
   #bub1, #bub2, #bub3 {
     background-color: aqua;
-    width: 360px;
-    height: 360px;
-    border-radius: 180px;
+    width: 340px;
+    height: 340px;
+    border-radius: 170px;
     align-items: center;
     justify-content: center;
     margin: 20px;
